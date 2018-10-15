@@ -14,16 +14,12 @@ html, body {
     font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
 }
 
-h1, h2, h3 {
-    font-weight: 200;
-    letter-spacing: -0.008em; 
-}
-
-p {
-    text-indent: 1em;
-    line-height: 1.3em;
-}
-
-blockquote > p {
-    text-indent: 0px;
+header.home {
+    text-align: center;
+    color: #fff;
+    background-image: url({{ "/assets/images/header.jpg" | relative_url }});
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
