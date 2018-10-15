@@ -1,0 +1,29 @@
+---
+---
+@font-face {
+	font-family:'Myriad Set Pro';
+	font-style:normal;
+	font-weight:200;
+	src:local('☺︎'), url('{{ "/assets/fonts/myriad-set-pro_thin.woff" | relative_url }}') format("woff"), url('{{ "/assets/fonts/myriad-set-pro_thin.woff" | relative_url }}') format("truetype");
+	/* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
+
+html, body {
+    background-color: #111;
+    color: #e1d3c1;
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+
+h1, h2, h3 {
+    font-weight: 200;
+    letter-spacing: -0.008em; 
+}
+
+p {
+    text-indent: 1em;
+    line-height: 1.3em;
+}
+
+blockquote > p {
+    text-indent: 0px;
+}
